@@ -1,9 +1,9 @@
 version: "3.8"
 
 services:
-  logger:
+  kotlin_logger123:
     build: .
-    container_name: kotlin_logger
+    container_name: kotlin_logger456
     environment:
       LOG_PATH_CONTAINER: ${LOG_PATH_CONTAINER}
     volumes:
